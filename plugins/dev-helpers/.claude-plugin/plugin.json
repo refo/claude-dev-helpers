@@ -1,11 +1,10 @@
 {
   "name": "dev-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stack-agnostic agentic dev workflow helpers: TDD, commits, PRDs, issue triage, pre-commit setup, design grilling. Reads per-project config from .claude/helpers.json.",
   "author": {
     "name": "Refik Önal"
   },
   "keywords": ["tdd", "commit", "prd", "workflow", "git"],
-  "commands": "./commands",
-  "hooks": "./hooks/hooks.json"
+  "commands": "./commands"
 }

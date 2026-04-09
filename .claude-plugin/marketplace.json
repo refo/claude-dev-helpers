@@ -9,7 +9,7 @@
       "name": "dev-helpers",
       "source": "./plugins/dev-helpers",
       "description": "Stack-agnostic agentic dev workflow helpers: TDD, commits, PRDs, issue triage, pre-commit setup, design grilling, and a per-project config bootstrapper.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "workflow",
       "tags": ["tdd", "commit", "prd", "issues", "workflow"]
     }
