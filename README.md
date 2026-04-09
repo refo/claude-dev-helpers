@@ -70,6 +70,10 @@ See the example inside [`plugins/dev-helpers/commands/init-helpers.md`](plugins/
 
 If a single project needs a bespoke version of a command, drop a file at `<repo>/.claude/commands/<name>.md` and it will shadow the plugin's copy.
 
+## Credits
+
+Most of the slash commands in this plugin started life as skills from [**Matt Pocock's `mattpocock/skills`**](https://github.com/mattpocock/skills) collection — `tdd`, `grill-me`, `commit`, `prd-to-issues`, `prd-to-plan`, `write-a-prd`, `triage-issue`, `setup-pre-commit`, `design-an-interface`, `ubiquitous-language`, and `git-guardrails-claude-code` all trace back to that repo. They've been adapted and generalized here, but the original ideas, structure, and a lot of the wording are his. Huge thanks to Matt for publishing them.
+
 ## Layout
 
 ```
