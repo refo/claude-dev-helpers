@@ -1,0 +1,17 @@
+{
+  "name": "refo",
+  "owner": {
+    "name": "Refik Önal",
+    "url": "https://github.com/refo"
+  },
+  "plugins": [
+    {
+      "name": "dev-helpers",
+      "source": "./plugins/dev-helpers",
+      "description": "Stack-agnostic agentic dev workflow helpers: TDD, commits, PRDs, issue triage, pre-commit setup, design grilling, and a per-project config bootstrapper.",
+      "version": "0.1.0",
+      "category": "workflow",
+      "tags": ["tdd", "commit", "prd", "issues", "workflow"]
+    }
+  ]
+}
