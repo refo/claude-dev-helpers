@@ -74,6 +74,10 @@ If a single project needs a bespoke version of a command, drop a file at `<repo>
 
 Most of the slash commands in this plugin started life as skills from [**Matt Pocock's `mattpocock/skills`**](https://github.com/mattpocock/skills) collection — `tdd`, `grill-me`, `commit`, `prd-to-issues`, `prd-to-plan`, `write-a-prd`, `triage-issue`, `setup-pre-commit`, `design-an-interface`, `ubiquitous-language`, and `git-guardrails-claude-code` all trace back to that repo. They've been adapted and generalized here, but the original ideas, structure, and a lot of the wording are his. Huge thanks to Matt for publishing them.
 
+## License
+
+[MIT](LICENSE). Both this project and `mattpocock/skills` (from which substantial portions are adapted) are MIT-licensed — copy, modify, redistribute, just preserve the notices in [`LICENSE`](LICENSE).
+
 ## Layout
 
 ```
