@@ -12,6 +12,14 @@
       "version": "0.1.1",
       "category": "workflow",
       "tags": ["tdd", "commit", "prd", "issues", "workflow"]
+    },
+    {
+      "name": "mp",
+      "source": "./plugins/mp",
+      "description": "Matt Pocock's Claude Code skills (mattpocock/skills), vendored via git subtree.",
+      "version": "0.1.0",
+      "category": "skills",
+      "tags": ["skills", "tdd", "domain-model", "refactor", "qa"]
     }
   ]
 }

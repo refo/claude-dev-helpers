@@ -1,0 +1,11 @@
+{
+  "name": "mp",
+  "version": "0.1.0",
+  "description": "Matt Pocock's Claude Code skills, vendored from mattpocock/skills via git subtree.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  "keywords": ["skills", "tdd", "domain-model", "refactor", "qa"],
+  "skills": "./skills"
+}
