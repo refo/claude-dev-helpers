@@ -18,18 +18,20 @@ are vendored but not registered).
 
 ## Updating
 
-The subtree was added with:
+Run the helper from the repo root on a clean working tree:
+
+```sh
+scripts/update-mp-skills.sh
+```
+
+It pulls the subtree from `mattpocock/skills` `main` and prints any drift
+between upstream's curated skills list and this wrapper's, so you know what
+to re-curate before bumping the version in `plugin.json` and
+`.claude-plugin/marketplace.json`.
+
+The subtree was originally added with:
 
 ```sh
 git subtree add --prefix=plugins/mp/skills \
     https://github.com/mattpocock/skills.git main --squash
 ```
-
-Pull future upstream changes with the symmetric command:
-
-```sh
-git subtree pull --prefix=plugins/mp/skills \
-    https://github.com/mattpocock/skills.git main --squash
-```
-
-Run from the repo root on a clean working tree.
