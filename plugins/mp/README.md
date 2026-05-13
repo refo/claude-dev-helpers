@@ -9,9 +9,12 @@ so they can be invoked as `mp:tdd`, `mp:brainstorming`, etc.
 
 ## Layout
 
-Upstream stores each skill as `<skill-name>/SKILL.md` at the repo root, which
-matches Claude Code's expected `skills/<name>/SKILL.md` shape — so the upstream
-tree is subtreed directly into `plugins/mp/skills/` with no transformation.
+Upstream groups skills under `skills/<category>/<skill-name>/SKILL.md` (e.g.
+`skills/engineering/tdd/SKILL.md`). The tree is subtreed directly into
+`plugins/mp/skills/` with no transformation; this plugin's `plugin.json`
+declares an explicit list of skill paths so only the curated set is exposed
+under the `mp:` namespace (deprecated, in-progress, personal, and misc skills
+are vendored but not registered).
 
 ## Updating
 

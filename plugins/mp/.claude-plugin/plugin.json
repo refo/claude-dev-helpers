@@ -7,5 +7,20 @@
     "url": "https://github.com/mattpocock/skills"
   },
   "keywords": ["skills", "tdd", "domain-model", "refactor", "qa"],
-  "skills": "./skills"
+  "skills": [
+    "./skills/skills/engineering/diagnose",
+    "./skills/skills/engineering/grill-with-docs",
+    "./skills/skills/engineering/triage",
+    "./skills/skills/engineering/improve-codebase-architecture",
+    "./skills/skills/engineering/setup-matt-pocock-skills",
+    "./skills/skills/engineering/tdd",
+    "./skills/skills/engineering/to-issues",
+    "./skills/skills/engineering/to-prd",
+    "./skills/skills/engineering/zoom-out",
+    "./skills/skills/engineering/prototype",
+    "./skills/skills/productivity/caveman",
+    "./skills/skills/productivity/grill-me",
+    "./skills/skills/productivity/handoff",
+    "./skills/skills/productivity/write-a-skill"
+  ]
 }
