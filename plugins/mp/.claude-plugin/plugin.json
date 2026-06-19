@@ -1,6 +1,6 @@
 {
   "name": "mp",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Matt Pocock's Claude Code skills, vendored from mattpocock/skills via git subtree.",
   "author": {
     "name": "Matt Pocock",
@@ -8,7 +8,8 @@
   },
   "keywords": ["skills", "tdd", "domain-model", "refactor", "qa"],
   "skills": [
-    "./skills/skills/engineering/diagnose",
+    "./skills/skills/engineering/ask-matt",
+    "./skills/skills/engineering/diagnosing-bugs",
     "./skills/skills/engineering/grill-with-docs",
     "./skills/skills/engineering/triage",
     "./skills/skills/engineering/improve-codebase-architecture",
@@ -16,11 +17,13 @@
     "./skills/skills/engineering/tdd",
     "./skills/skills/engineering/to-issues",
     "./skills/skills/engineering/to-prd",
-    "./skills/skills/engineering/zoom-out",
     "./skills/skills/engineering/prototype",
-    "./skills/skills/productivity/caveman",
+    "./skills/skills/engineering/domain-modeling",
+    "./skills/skills/engineering/codebase-design",
     "./skills/skills/productivity/grill-me",
+    "./skills/skills/productivity/grilling",
     "./skills/skills/productivity/handoff",
-    "./skills/skills/productivity/write-a-skill"
+    "./skills/skills/productivity/teach",
+    "./skills/skills/productivity/writing-great-skills"
   ]
 }
